@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+   background-image: linear-gradient(to right,   rgb(0, 132, 255) ,  pink);;
+   height: 100vh;
+}
+.wrap{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-color:  rgb(240, 105, 127);
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+   
+
+}
+.content{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    width: 550px;
+    height: 250px;
+    box-shadow: 10px black;
+    border-radius: 20px;
+ 
+}
+.words{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.words p{
+    font-size: 17px;
+    font-family: cursive;
+    font-style: italic;
+    margin: 20px 0 20px 0;
+
+}
+.words blockquote{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    margin: 20px 0 30px 0;
+    font-weight: 700;
+
+}
+.words button{
+    outline: none;
+    border: 3px rgb(255, 255, 255);
+    padding: 8px 10px 8px 10px;
+    background-color: rgb(0, 132, 255) ;
+    color: white;
+}

@@ -1,0 +1,1 @@
+A random quote generator in which an api will be called and some dom manipulation will be implemented
